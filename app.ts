@@ -11,7 +11,9 @@ Root / Home page - controllers are of the form
 (<express.Request>request, <express.Response>response) => {...}
 */
 app.get("/", (req:express.Request, res:express.Response) => {
-	res.send("Hello World!")
+	res.send("Hello World!");
+	res.end();
+	//try typing 'req.' and see autocomplete do magic
 })
 
 app.listen(3000, () => {
