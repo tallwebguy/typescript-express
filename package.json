@@ -1,0 +1,16 @@
+{
+  "name": "express-typescript",
+  "version": "1.0.0",
+  "description": "sample typescript and express application",
+  "main": "build/app.js",
+  "scripts": {
+    "run" : "tsc; node build/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tallwebguy",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "swig": "^1.4.2"
+  }
+}
